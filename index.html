@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 420px)"
+      href="./CSS/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1100px)"
+      href="./CSS/widescreen.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/bded60511a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>EdgeLedger || Welcome</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav id="navbar">
+      <h1 class="logo">
+        <span class="text-primary">
+          <i class="fas fa-book-open"></i> Edge
+        </span>
+        Ledger
+      </h1>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li><a href="#what">What</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Header -->
+    <header id="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">
+          The Sky is the limit
+        </h1>
+        <p class="lead">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
+          vero quae totam ratione mollitia cum!
+        </p>
+        <a href="#what" class="btn">Read More</a>
+      </div>
+    </header>
+    <!-- Section what we do -->
+    <section id="what" class="gb-light py-1">
+      <div class="container">
+        <h2 class="m-heading text-center">
+          <span class="text-primary">What</span> We Do
+        </h2>
+        <div class="items">
+          <div class="item">
+            <i class="fas fa-university fa-x2"></i>
+            <div>
+              <h3>
+                Lorem, ipsum dolor.
+              </h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo,
+                sunt?
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fas fa-book-reader fa-x2"></i>
+            <div>
+              <h3>
+                Lorem, ipsum dolor.
+              </h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo,
+                sunt?
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fas fa-pencil-alt fa-x2"></i>
+            <div>
+              <h3>
+                Lorem, ipsum dolor.
+              </h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo,
+                sunt?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Who we Are -->
+    <section id="who">
+      <div class="who-img"></div>
+      <div class="who-text bg-dark p-2">
+        <h2 class="m-heading"><span class="text-primary">Who</span> Are We</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet
+          delectus esse recusandae mollitia ullam nobis illum officiis quos,
+          provident, voluptate reiciendis excepturi magnam accusamus ducimus
+          sunt, expedita necessitatibus! Maxime?
+        </p>
+        <h3>Our Team</h3>
+        <ul class="list">
+          <li>Pedro: CEO</li>
+          <li>50cent: Concerje</li>
+          <li>john wick: assasin</li>
+          <li>50cent: Concerje</li>
+          <li>john wick: assasin</li>
+          <li>50cent: Concerje</li>
+          <li>john wick: assasin</li>
+        </ul>
+      </div>
+    </section>
+    <!-- clients -->
+    <section id="clients" class="py1">
+      <div class="container">
+        <h2 class="m-heading text-center">
+          <span class="text-primary">Our</span> Clients
+        </h2>
+        <div class="items">
+          <div>
+            <img src="./image_resources/logos/logo1.png" alt="client" />
+          </div>
+          <div>
+            <img src="./image_resources/logos/logo2.png" alt="client" />
+          </div>
+          <div>
+            <img src="./image_resources/logos/logo3.png" alt="client" />
+          </div>
+          <div>
+            <img src="./image_resources/logos/logo4.png" alt="client" />
+          </div>
+          <div>
+            <img src="./image_resources/logos/logo5.png" alt="client" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Contact  -->
+    <section id="contact">
+      <div class="contact-form bg-primary p-2">
+        <h2 class="m-heading">Contact Us</h2>
+        <p>Please Use the form to contact us</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="email" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="phone"
+              name="phone"
+              id="phone"
+              placeholder="00 00 00 00 00"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="message"
+            ></textarea>
+          </div>
+          <input type="submit" value="Send" class="btn btn-dark" />
+        </form>
+      </div>
+      <div id="map"></div>
+    </section>
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container"><p>Copyright &copy; 2019</p></div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./JS/main.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfG4TKyBLts6ftGf3snCUoVvaa9GSLLEw&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+</html>
+<!--  AIzaSyCfG4TKyBLts6ftGf3snCUoVvaa9GSLLEw   -->
